@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Georgia, serif;
+    background-color: #f4f1ea;
+    color: #222;
+}
+
+header {
+    background-color: #1d2d44;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+}
+
+header p {
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 1.2em;
+}
+
+nav {
+    background-color: #0b1f33;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero,
+.mission {
+    padding: 50px 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.hero h2,
+.mission h2 {
+    color: #1d2d44;
+}
+
+footer {
+    background-color: #1d2d44;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
