@@ -1,56 +1,95 @@
+:root {
+    --navy: #1f3d6d;
+    --deep-navy: #09265c;
+    --red: #e60000;
+    --gold: #c99a00;
+    --white: #ffffff;
+    --light-gray: #f4f4f4;
+    --text: #222222;
+}
 body {
+    font-family: Georgia, "Times New Roman", serif;
     margin: 0;
-    font-family: Georgia, serif;
-    background-color: #f4f1ea;
-    color: #222;
+    padding: 0;
+    background: var(--light-gray);
+    color: var(--text);
 }
 
 header {
-    background-color: #1d2d44;
-    color: white;
-    padding: 60px 20px;
+    background: var(--deep-navy);
+    color: var(--white);
     text-align: center;
+    padding: 35px 20px;
+    border-top: 12px solid var(--navy);
+    border-bottom: 8px solid var(--red);
 }
 
 header h1 {
-    margin: 0;
-    font-size: 3em;
+    color: var(--white);
+    font-size: 3rem;
+    letter-spacing: 2px;
 }
 
 header p {
-    max-width: 800px;
-    margin: 20px auto;
-    font-size: 1.2em;
+    color: var(--gold);
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 nav {
-    background-color: #0b1f33;
-    padding: 15px;
+    background: var(--navy);
     text-align: center;
+    padding: 12px;
 }
 
 nav a {
-    color: white;
-    margin: 0 12px;
+    color: var(--white);
     text-decoration: none;
+    margin: 0 12px;
     font-weight: bold;
 }
 
-.hero,
-.mission {
-    padding: 50px 20px;
-    max-width: 1000px;
-    margin: auto;
+nav a:hover {
+    color: var(--gold);
 }
 
-.hero h2,
-.mission h2 {
-    color: #1d2d44;
+.hero,
+.mission,
+.wars {
+    max-width: 1000px;
+    margin: 30px auto;
+    background: var(--white);
+    padding: 30px;
+    border-left: 8px solid var(--gold);
+    box-shadow: 0 0 12px rgba(0,0,0,.15);
+}
+
+h2 {
+    color: var(--deep-navy);
+    border-bottom: 3px solid var(--red);
+    padding-bottom: 8px;
+}
+
+a {
+    color: var(--deep-navy);
+    font-weight: bold;
+}
+
+a:hover {
+    color: var(--red);
+}
+
+blockquote {
+    border-left: 5px solid var(--gold);
+    padding-left: 20px;
+    font-style: italic;
+    color: var(--deep-navy);
 }
 
 footer {
-    background-color: #1d2d44;
-    color: white;
+    background: var(--deep-navy);
+    color: var(--white);
     text-align: center;
     padding: 20px;
+    border-top: 8px solid var(--red);
 }
