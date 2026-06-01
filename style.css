@@ -135,7 +135,7 @@ footer {
 }
 .grave-photo {
     display: block;
-    max-width: 300px;
+    max-width: 350px;
     width: 100%;
     height: auto;
     margin: 20px auto;
@@ -144,7 +144,7 @@ footer {
 }
 .portrait {
     display: block;
-    max-width: 325px;
+    max-width: 350px;
     width: 100%;
     height: auto;
     margin: 0 auto 25px auto;
