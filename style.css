@@ -135,10 +135,19 @@ footer {
 }
 .grave-photo {
     display: block;
-    max-width: 500px;
+    max-width: 300px;
     width: 100%;
     height: auto;
     margin: 20px auto;
     border: 4px solid #09265c;
+    box-shadow: 0 4px 10px rgba(0,0,0,.25);
+}
+.portrait {
+    display: block;
+    max-width: 325px;
+    width: 100%;
+    height: auto;
+    margin: 0 auto 25px auto;
+    border: 3px solid #c99a00;
     box-shadow: 0 4px 10px rgba(0,0,0,.25);
 }
