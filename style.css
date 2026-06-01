@@ -133,3 +133,12 @@ footer {
         height: auto;
     }
 }
+.grave-photo {
+    display: block;
+    max-width: 500px;
+    width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border: 4px solid #09265c;
+    box-shadow: 0 4px 10px rgba(0,0,0,.25);
+}
